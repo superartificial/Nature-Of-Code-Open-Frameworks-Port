@@ -18,7 +18,7 @@ private:
 
 public:
     Pendulum();
-    Pendulum(ofVec2f,float,float,float)
+    Pendulum(ofVec2f,float,float,float);
     void update();
     void display();
 };
