@@ -13,7 +13,7 @@ void ofApp::update(){
     flowField.populate();
 
     vehicles.update(flowField);
-    ofSaveFrame();
+    //ofSaveFrame();
 }
 
 //--------------------------------------------------------------
